@@ -12,4 +12,5 @@ void print_numbers(void);
 void print_most_numbers(void);
 /*task 5*/
 void more_numbers(void);
-
+/*task 6*/
+void print_line(int n);
