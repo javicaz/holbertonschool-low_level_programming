@@ -10,3 +10,6 @@ int mul(int a, int b);
 void print_numbers(void);
 /*task 4*/
 void print_most_numbers(void);
+/*task 5*/
+void more_numbers(void);
+
