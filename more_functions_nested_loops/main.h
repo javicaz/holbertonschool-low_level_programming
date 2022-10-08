@@ -18,3 +18,7 @@ void print_line(int n);
 void print_diagonal(int n);
 /*task 8*/
 void print_square(int size);
+/*task 9*/
+
+/*task 10*/
+void print_triangle(int size);
