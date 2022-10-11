@@ -1,0 +1,2 @@
+#!/bin/bash
+file_var=$(echo $CFILE | tr ".c" ".o") ; (gcc -c $CFILE -o $file_var)
