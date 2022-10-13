@@ -18,3 +18,5 @@ void puts2(char *str);
 void puts_half(char *str);
 /*Task 9*/
 void print_array(int *a, int n);
+/*Task 10 */
+char *_strcpy(char *dest, char *src);
