@@ -8,4 +8,5 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 /*Task 4 */
 void _puts(char *str);
-
+/*Task 5*/
+void print_rev(char *s);
