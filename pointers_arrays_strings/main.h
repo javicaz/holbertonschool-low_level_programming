@@ -14,3 +14,5 @@ void print_rev(char *s);
 void rev_string(char *s);
 /*Task 7*/
 void puts2(char *str);
+/*Task 8*/
+void puts_half(char *str);
