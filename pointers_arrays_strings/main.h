@@ -30,3 +30,5 @@ char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 /*Task 4 Rev_Array*/
 void reverse_array(int *a, int n);
+/* Task 5 Toupper*/
+char *string_toupper(char *s);
