@@ -24,3 +24,5 @@ char *_strcpy(char *dest, char *src);
 char *_strcat(char *dest, char *src);
 /*Task 1 strncat */
 char *_strncat(char *dest, char *src, int n);
+/*Task 2 strncat*/
+char *_strncpy(char *dest, char *src, int n);
