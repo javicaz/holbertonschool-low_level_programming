@@ -20,5 +20,7 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 /*Task 10 */
 char *_strcpy(char *dest, char *src);
-/*Task 0*/
+/*Task 0 strncat*/
 char *_strcat(char *dest, char *src);
+/*Task 1 strncat */
+char *_strncat(char *dest, char *src, int n);
