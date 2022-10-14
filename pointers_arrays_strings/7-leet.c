@@ -1,30 +1,24 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * leet - turn aeotl into 43071 respectively
- * @s: string to replace from
+ * leet - encodes a string into 1337
+ * @s: string to encode
  *
- * Description: Mozart is so over valued
- *
- * Return: Pointer to changed string
+ * Return: address of s
  */
-
 char *leet(char *s)
 {
-	char *moz;
+	int i, j;
+	char a[] = "aAeEoOtTlL";
+	char b[] = "4433007711";
 
-	moz  = s;
-
-	while (*s)
+	for (i = 0; *(s + i); i++)
 	{
-		(*s == 'a' || *s == 'A') ? *s = '4' : 0;
-		(*s == 'e' || *s == 'E') ? *s = '3' : 0;
-		(*s == 'o' || *s == 'O') ? *s = '0' : 0;
-		(*s == 't' || *s == 'T') ? *s = '7' : 0;
-		if (*s == 'l' || *s == 'L')
-			(*s) = '1';
-		s++;
+		for (j = 0; j <= 9; j++)
+		{
+			if (a[j] == *(s + i))
+				*(s + i) = b[j];
+		}
 	}
-
-	return (moz);
+	return (s);
 }
