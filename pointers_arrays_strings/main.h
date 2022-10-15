@@ -40,3 +40,5 @@ char *leet(char *s);
 char *_memset(char *s, char b, unsigned int n);
 /*Task 1 Memcpy*/
 char *_memcpy(char *dest, char *src, unsigned int n);
+/*Task 2 Memsearch*/
+char *_strchr(char *s, char c);
