@@ -48,3 +48,5 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 /*Task 5 Substracting*/
 char *_strstr(char *haystack, char *needle);
+/*Task 7 Chessboard*/
+void print_chessboard(char (*a)[8]);
