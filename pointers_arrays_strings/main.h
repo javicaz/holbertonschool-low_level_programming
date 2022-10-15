@@ -36,3 +36,6 @@ char *string_toupper(char *s);
 char *cap_string(char *);
 /*Task 7 Leet*/
 char *leet(char *s);
+/*Task 0 Memset*/
+char *_memset(char *s, char b, unsigned int n);
+
