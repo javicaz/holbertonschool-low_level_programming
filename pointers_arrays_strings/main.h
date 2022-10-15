@@ -50,3 +50,5 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 /*Task 7 Chessboard*/
 void print_chessboard(char (*a)[8]);
+/*Task 8 Diagonal thinking*/
+void print_diagsums(int *a, int size);
