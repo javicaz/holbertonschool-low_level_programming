@@ -44,3 +44,5 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 /*Task 3 Mem Searchseption*/
 unsigned int _strspn(char *s, char *accept);
+/*Task 4 Searchinset*/
+char *_strpbrk(char *s, char *accept);
