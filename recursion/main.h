@@ -4,3 +4,5 @@ int _putchar(char c);
 void _puts_recursion(char *s);
 /*Task 1*/
 void _print_rev_recursion(char *s);
+/*Task 2*/
+int _strlen_recursion(char *s);
