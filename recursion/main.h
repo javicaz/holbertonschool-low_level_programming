@@ -14,3 +14,7 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 /*Task 5.1 */
 int natural(int x, int y);
+/*Task 6 */
+int prime_prev(int x, int y);
+/*Task 6.1 */
+int is_prime_number(int n);
