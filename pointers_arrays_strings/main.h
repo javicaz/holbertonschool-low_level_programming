@@ -52,3 +52,6 @@ char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 /*Task 8 Diagonal thinking*/
 void print_diagsums(int *a, int size);
+/*Task 101 Atoi*/
+int _atoi(char *s);
+
