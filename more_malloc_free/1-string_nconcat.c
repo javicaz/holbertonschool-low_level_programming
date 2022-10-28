@@ -1,7 +1,23 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * string_nconcat - concatanate from s2 onto s1 in a new memory space
+ * _strlen - returns the length of a string
+ * @s: string to evaluate
+ *
+ * Return: the length of the string
+ */
+int _strlen(char *s)
+{
+	int x = 0;
+
+	while (s[x] != 0)
+	{
+		x++;
+	}
+	return (x);
+}
+/**
+ * string_nconcat - concatanate from s2 on s1
  * @s1: string one contains
  * @s2: string two newly allocated
  * @n: number of bytes from s2 to concat s1
