@@ -24,5 +24,7 @@ void print_dog(struct dog *d);
 typedef struct dog dog_t;
 /*Task 4 */
 dog_t *new_dog(char *name, float age, char *owner);
+/*Task 5 */
+void free_dog(dog_t *d);
 
 #endif
