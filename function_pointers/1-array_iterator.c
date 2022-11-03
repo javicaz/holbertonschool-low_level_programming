@@ -5,6 +5,7 @@
  * @array: int to iterate over
  * @size: size of the array
  * @action: function to use on array
+ * Adding
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
