@@ -17,5 +17,7 @@ typedef struct list_t
 } list_t;
 /*Task 0*/
 size_t print_list(const list_t *h);
+/*Task 1*/
+size_t list_len(const list_t *h);
 
 #endif
