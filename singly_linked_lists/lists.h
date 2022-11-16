@@ -15,9 +15,13 @@ typedef struct list_t
 	int len;
 	struct list_t *next;
 } list_t;
+/*Putchar */
+int _putchar(char c);
 /*Task 0*/
 size_t print_list(const list_t *h);
 /*Task 1*/
 size_t list_len(const list_t *h);
+/*Task 2*/
+list_t *add_node(list_t **head, const char *str);
 
 #endif
